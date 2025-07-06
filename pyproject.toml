@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "evalx"
 description = "Next-generation evaluation framework for LLM applications with research-grade validation and production-ready performance"
 authors = [
-    {name = "EvalX Team", email = "team@evalx.ai"}
+    {name = "Vishal Seelam", email = "vishalseelam21@gmail.com"}
 ]
 readme = "README.md"
 license = {text = "MIT"}
@@ -112,10 +112,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/evalx-ai/evalx"
-Documentation = "https://evalx.readthedocs.io"
-Repository = "https://github.com/evalx-ai/evalx"
-Issues = "https://github.com/evalx-ai/evalx/issues"
+Homepage = "https://github.com/vishalseelam/EvalX"
+Documentation = "https://github.com/vishalseelam/EvalX"
+Repository = "https://github.com/vishalseelam/EvalX"
+Issues = "https://github.com/vishalseelam/EvalX/issues"
 
 [project.scripts]
 evalx = "evalx.cli:main"

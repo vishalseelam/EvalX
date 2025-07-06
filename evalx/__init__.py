@@ -57,8 +57,8 @@ from .utils.async_utils import AsyncEvaluationEngine
 
 # Version information
 __version__ = "0.1.0"
-__author__ = "EvalX Team"
-__email__ = "team@evalx.ai"
+__author__ = "Vishal Seelam"
+__email__ = "vishalseelam@gmail.com"
 
 # Main exports
 __all__ = [
