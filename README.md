@@ -2,7 +2,7 @@
 
 [![PyPI version](https://badge.fury.io/py/evalx.svg)](https://badge.fury.io/py/evalx)
 [![Python versions](https://img.shields.io/pypi/pyversions/evalx.svg)](https://pypi.org/project/evalx/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 EvalX is a comprehensive evaluation framework for Large Language Model applications that combines traditional metrics, LLM-as-judge evaluations, and intelligent agentic orchestration with research-grade validation.
 
@@ -198,11 +198,11 @@ evalx metrics --list
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions!
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
