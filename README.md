@@ -5,7 +5,38 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 EvalX is a comprehensive evaluation framework for Large Language Model applications that combines traditional metrics, LLM-as-judge evaluations, and intelligent agentic orchestration with research-grade validation.
-
+graph TB
+    A[EvalX Metrics Library] --> B[Traditional Metrics<br/>7 metrics]
+    A --> C[LLM-as-Judge Metrics<br/>5 metrics]
+    A --> D[Multimodal Metrics<br/>4 metrics]
+    A --> E[Hybrid Metrics<br/>1 framework]
+    
+    B --> B1["BLEU Score"]
+    B --> B2["ROUGE Score"]
+    B --> B3["METEOR Score"]
+    B --> B4["Semantic Similarity"]
+    B --> B5["BERTScore"]
+    B --> B6["Exact Match"]
+    B --> B7["Levenshtein Distance"]
+    
+    C --> C1["Accuracy"]
+    C --> C2["Helpfulness"]
+    C --> C3["Coherence"]
+    C --> C4["Groundedness"]
+    C --> C5["Relevance"]
+    
+    D --> D1["Image-Text Alignment"]
+    D --> D2["Image Caption Quality"]
+    D --> D3["Code Correctness"]
+    D --> D4["Audio Quality"]
+    
+    E --> E1["Hybrid Metric Framework<br/>(Combines multiple metrics)"]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style D fill:#ffb,stroke:#333,stroke-width:2px
+    style E fill:#fbb,stroke:#333,stroke-width:2px
 ## 🚀 Key Features
 
 - **🤖 Agentic Orchestration**: Natural language instructions → automatic evaluation planning
