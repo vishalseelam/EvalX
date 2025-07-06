@@ -198,7 +198,7 @@ evalx metrics --list
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions!
 
 ## 📄 License
 
