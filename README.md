@@ -3,6 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/evalx.svg)](https://badge.fury.io/py/evalx)
 [![Python versions](https://img.shields.io/pypi/pyversions/evalx.svg)](https://pypi.org/project/evalx/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 EvalX is a comprehensive evaluation framework for Large Language Model applications that combines traditional metrics, LLM-as-judge evaluations, and intelligent agentic orchestration with research-grade validation.
 
 ## 🚀 Key Features
